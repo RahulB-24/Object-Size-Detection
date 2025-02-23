@@ -1,1 +1,1 @@
-# Object-Size-Detection
+This project can be used to calculate size of any object the user desires. The user uploads an image with a reference object with constant size and the object to be calculated in the same picture. This project utilises OpenCV to detect objects and draw bounding boxes, while NumPy helps with the calculations. Streamlit provides a simple, interactive interface where you can upload an image, and Pillow (PIL) ensures smooth image handling. By using a reference object, the app calculates real-world sizes in centimetres.
